@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "video-cutoff"
+version = "0.1.0"
+description = ""
+authors = ["Elsecaller <elsecaller@8176135.xyz>"]
+readme = "README.md"
+packages = [{include = "video_cutoff"}]
+
+[tool.poetry.dependencies]
+#opencv-python = "*"
+mpv = "*"
+#jsonpickle = "*"
+python = "^3.9"
+#tkvideoplayer = "^2.3"
+matplotlib = "*"
+pandas = "*"
+numpy = "*"
+
+ffmpeg="*"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
